@@ -25,9 +25,9 @@ body {
 #navbar-logo {
     color: var(--color2);
     font-size: 1.5rem;
-    font-weight: 500;
     font-family: Kavoon;
     padding: 5px;
+    margin-right: 0%;
 }
 .navbar-nav {
     font-size: 20px;
@@ -43,6 +43,7 @@ body {
 .navbar-toggler-icon {
     background-image: url(images/meow_toggle.svg);
     background-size: 1.5rem;
+    margin-left: 0%;
 }
 .nav-item {
     padding-inline: 30px;
