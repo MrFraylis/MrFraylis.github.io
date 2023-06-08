@@ -9,7 +9,6 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
-    
 }
 @media (max-width: 991px) {
     body {
@@ -17,18 +16,11 @@ body {
       background-size: auto;
       background-attachment: left;
     }
-  }
-@media (min-width: 720px) {
-    #navbar-logo {
-        font-size: 0.5rem;
-    }
-
 }
 #navbar-body {
     background-color: #271300;
     width:auto;
     padding: 5px;
-
 }
 #navbar-logo {
     color: var(--color2);
