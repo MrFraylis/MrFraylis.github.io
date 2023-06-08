@@ -16,11 +16,14 @@ body {
       background-size: auto;
       background-attachment: left;
     }
+    #navbar-body {
+        padding: 0.1rem
+    }
 }
 #navbar-body {
     background-color: #271300;
     width:auto;
-    padding: 5px;
+    padding: 0.3rem;
 }
 #navbar-logo {
     color: var(--color2);
@@ -44,6 +47,7 @@ body {
     background-image: url(images/meow_toggle.svg);
     background-size: 1.5rem;
     margin-left: 0%;
+    padding: 0%;
 }
 .nav-item {
     padding-inline: 30px;
