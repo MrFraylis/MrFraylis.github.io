@@ -12,12 +12,18 @@ body {
     
 }
 @media (max-width: 991px) {
-   body {
+    body {
       background-position: -250px -100px;
       background-size: auto;
       background-attachment: left;
     }
   }
+@media (min-width: 720px) {
+    #navbar-logo {
+        font-size: 0.5rem;
+    }
+
+}
 #navbar-body {
     background-color: #271300;
     width:auto;
