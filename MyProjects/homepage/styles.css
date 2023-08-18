@@ -16,6 +16,9 @@ body {
       background-size: auto;
       background-attachment: left;
     }
+    .carousel-center-medium {
+        margin-inline: 0;
+    }
 }
 @media (max-width: 500px) {
     #navbar-body {
@@ -25,6 +28,7 @@ body {
         padding-inline: 0.1rem;
     }
 }
+/*Navbar styles*/
 #navbar-body {
     background-color: #271300;
     width:auto;
@@ -62,6 +66,8 @@ body {
 .nav-item {
     padding-inline: 30px;
 }
+
+/*Main container styles*/
 .main_container {
     text-align: center;
     margin-top: 0;
@@ -108,4 +114,15 @@ body {
     --bs-accordion-active-color: var(--color2);
     --bs-accordion-border-color: var(--color2);
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--color2_hover);
+}
+.carousel-text {
+    font-family: Kavoon;
+    color: var(--color2);
+    background-color: var(--main-container-color);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.carousel-center-medium {
+    margin-inline: 10%;
 }
