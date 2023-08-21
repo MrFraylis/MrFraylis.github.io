@@ -16,9 +16,6 @@ body {
       background-size: auto;
       background-attachment: left;
     }
-    .carousel-center-medium {
-        margin-inline: 0;
-    }
 }
 @media (max-width: 500px) {
     #navbar-body {
@@ -56,7 +53,6 @@ body {
     box-sizing: content-box;
     padding: 0.1rem;
 }
-
 .navbar-toggler-icon {
     background-image: url(images/meow_toggle.svg);
     background-size: 1.5rem;
@@ -66,7 +62,6 @@ body {
 .nav-item {
     padding-inline: 30px;
 }
-
 /*Main container styles*/
 .main_container {
     text-align: center;
@@ -75,6 +70,11 @@ body {
     min-height: 1000px;
     padding: 5%;
     background-color: var(--main-container-color);
+}
+@media (max-width: 991px) {
+    .main_container {
+        margin-inline: 0;
+    }
 }
 .heading_menu {
     font-size: 60;
@@ -123,6 +123,11 @@ body {
     left: 0;
     width: 100%;
 }
-.carousel-center-medium {
-    margin-inline: 10%;
+#MenuCarousel {
+    margin: 5%;
+}
+@media (max-width: 991px) {
+    #MenuCarousel {
+        margin-inline: 0;
+    }
 }
