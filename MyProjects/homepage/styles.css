@@ -1,6 +1,6 @@
 :root {
     --color1: #271300;
-    --color2: #FFB900;
+    --color2: #ffbb00;
     --color2_hover: #8b6600;
     --main-container-color: #000000bb;
 }
@@ -27,7 +27,7 @@ body {
 }
 /*Navbar styles*/
 #navbar-body {
-    background-color: #271300;
+    background-color: var(--color1);
     width:auto;
     padding: 0.3rem;
 }
@@ -88,6 +88,12 @@ body {
     text-align: center;
     padding-block: 10%;
 }
+@media (max-width: 991px) {
+    .subgreeting {
+        font-size: large;
+        padding-block: 5%;  
+    }
+}
 .card {
     background-color: var(--color1);;
     color: var(--color2);
@@ -109,12 +115,13 @@ body {
     font-size: large;
 }
 .accordion-item {
-    background-color:#0000;
+    background-color:#00000000;
     --bs-accordion-active-bg: var(--color1);
     --bs-accordion-active-color: var(--color2);
     --bs-accordion-border-color: var(--color2);
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--color2_hover);
 }
+/*Carousel styles*/
 .carousel-text {
     font-family: Kavoon;
     color: var(--color2);
@@ -122,6 +129,23 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
+}
+@media (max-width: 770px) {
+    .carousel-text {
+        font-family: Kavoon;
+        font-size: larger;
+        padding-inline: 10%;
+        padding-block: 20%;
+        color: var(--color2);
+        background-color: var(--main-container-color);
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .carousel-heading {
+        font-size: 2rem;
+    }
 }
 #MenuCarousel {
     margin: 5%;
