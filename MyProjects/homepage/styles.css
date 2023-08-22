@@ -130,7 +130,7 @@ body {
     left: 0;
     width: 100%;
 }
-@media (max-width: 770px) {
+@media (max-width: 768px) {
     .carousel-text {
         font-family: Kavoon;
         font-size: larger;
@@ -153,5 +153,18 @@ body {
 @media (max-width: 991px) {
     #MenuCarousel {
         margin-inline: 0;
+    }
+}
+.menu-picture {
+    min-height: 169px;
+    min-width: 169px;
+}
+.menu-card {
+    max-width: fit-content;
+}
+@media (max-width:768px) {
+    .menu-card {
+        min-height: fit-content;
+        max-width: 400px;
     }
 }
