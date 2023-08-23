@@ -174,8 +174,16 @@ body {
         max-width: 400px;
     }
 }
-#sticky-back-btn{
+#back-btn {
+    display: none;
     position: fixed;
-    bottom: 5%;
-    right: 5%;
+    bottom: 3%;
+    right: 6%;
+    z-index: 99;
+}
+@media (min-width:900px) {
+    #back-btn {
+        bottom: 50%;
+        right: 5%;
+    }
 }
