@@ -187,3 +187,11 @@ body {
         right: 5%;
     }
 }
+/* Our cats styles */
+.cat-card {
+    min-width:480px;
+    
+}
+.cat-card-img {
+    max-height: 720px;
+}
