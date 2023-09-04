@@ -71,6 +71,11 @@ body {
     padding: 5%;
     background-color: var(--main-container-color);
 }
+@media (max-width: 1500px) {
+    .main_container {
+        margin-inline: 5%;
+    }
+}
 @media (max-width: 991px) {
     .main_container {
         margin-inline: 0;
@@ -194,4 +199,19 @@ body {
 }
 .cat-card-img {
     max-height: 720px;
+}
+.contact {
+    background-color: #00000000;
+    min-width: fit-content;
+}
+.contact-img {
+    max-height: 40px;
+}
+.contact-link {
+    text-decoration: none;
+    color: var(--color2);
+}
+.contact-link:hover {
+    text-decoration: none;
+    color: var(--color2_hover);
 }
